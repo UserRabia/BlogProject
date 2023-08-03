@@ -1,0 +1,144 @@
+body {
+    background: #68b3a7;
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+header .logo img{
+    max-width: 70px;
+}
+
+header, main {
+    width: 800px;
+    background: #fff;
+    padding: 20px;
+    margin: auto;
+    
+}
+
+header {
+    min-height: 10vh;
+    display: flex;
+    margin-top: 20px;
+    border-radius: 20px 20px 0px 0px;
+}
+
+header .login {
+    margin-left: auto;
+}
+
+main {
+    min-height: 70vh;
+    border-radius: 0px 0px 20px 20px;
+
+}
+
+.posts article {
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ccc;
+}
+
+.account {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.account > div {
+    margin-left: 10px;
+}
+
+.account a {
+    display: inline-block;
+    text-decoration: none;
+    background: #58998e;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+.account a:hover {
+    background: #68b3a7;
+}
+
+article h3 a {
+    color: #000;
+    text-decoration: none;
+}
+
+article h3 a:hover{
+    color: #58998e;
+    text-decoration: underline;
+}
+
+.tools {
+    display: flex;
+    margin-top: 10px;
+}
+
+.tools > div {
+    margin-right: 10px;
+}
+
+.tools a,
+.tools input,
+.add div input[type=submit],
+.login input[type=submit] {
+    display: inline-block;
+    text-decoration: none;
+    background: #58998e;
+    color: #fff;
+    border-radius: 3px;
+    border: 0;
+    padding: 0px 5px;
+    cursor: pointer;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    height: 25px;
+    line-height: 25px;
+}
+
+.tools a:hover,
+.tools input:hover,
+.add div input[type=submit]:hover,
+.login input[type=submit]:hover {
+    background: #68b3a7;
+}
+
+.date {
+    margin-bottom: 10px;
+    color: #717070;
+    font-style: italic;
+}
+
+.add div {
+    margin-bottom: 10px;
+}
+
+.add div input[type=text],
+.add div textarea {
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+    width: 100%;
+}
+
+.add div textarea {
+    height: 150px;
+}
+
+.login input[type=text],
+.login input[type=password] {
+    border: 1px solid #ccc;
+    padding: 5px;
+    font-family: Helvetica, sans-serif;
+    font-size: 16px;
+    border-radius: 4px;
+}
+
+.login form > div {
+    margin-bottom: 5px;
+}
